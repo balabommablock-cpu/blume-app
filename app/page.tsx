@@ -68,7 +68,8 @@ export default function BlumePage() {
         <div className="cs-hero-left">
           <div className="cs-window-wrap">
             <span className="cs-window-caption">
-              👇 a sample of what I&apos;d send you every Sunday
+              👇 a sample. an AI agent writes this every Sunday. I would
+              just read it.
             </span>
             <div className="cs-window">
               <div className="cs-window-bar">
@@ -78,7 +79,7 @@ export default function BlumePage() {
               </div>
               <div className="cs-window-body">
                 <p className="cs-window-from">
-                  Sunday brief · 12 companies · 8 PM IST
+                  Sunday brief · auto-generated · 8 PM IST
                 </p>
                 <p className="cs-window-subject">
                   This week, the lines that matter
@@ -100,9 +101,10 @@ export default function BlumePage() {
             <span className="cursive">the cheque clears.</span>
           </h1>
           <p className="cs-hero-sub">
-            I&apos;m Rishabh Balabomma, a product leader in Mumbai. This is
-            my application for the Blume Growth Investments seat, written as
-            a note, not a CV. Four-minute read.
+            I&apos;m Rishabh. A product guy. I build fintech things at
+            Motilal Oswal, and more of them on weekends than is strictly
+            healthy. This is my pitch for the Blume Growth Investments
+            seat. A note, not a CV. Four minutes.
           </p>
         </div>
       </section>
@@ -151,9 +153,8 @@ export default function BlumePage() {
             <span className="cursive">shipped.</span>
           </h2>
           <p className="cs-section-body">
-            Built, shipped, owned end-to-end. Each one survived a CFO, a
-            compliance review, and at least one regulator. None of them
-            are decks.
+            Five things I built and shipped. Four at Motilal, one on my
+            own time. Live products, real numbers, not a slide in sight.
           </p>
 
           <div className="cs-shipped">
@@ -191,10 +192,10 @@ export default function BlumePage() {
           </h2>
           <p className="cs-section-body">
             The JD asks for someone with a <em>strong urge to delegate
-            mundane work to bots</em>. Reading 360 articles a week is
-            mundane. Pre-board prep is mundane. Reading every DRHP cover
-            to cover is mundane. Three things I would hand to the bots in
-            week one.
+            mundane work to bots</em>. I have it. Reading 360 articles a
+            week. Prepping every board meeting by hand. Reading a DRHP end
+            to end. Boring, all of it, and easy to hand off. Here are the
+            first three I would.
           </p>
 
           <div className="cs-cases">
@@ -230,7 +231,7 @@ export default function BlumePage() {
 
           <p className="cs-section-body">
             Below is the full system prompt. Copy it. Paste it into Claude
-            Code. Give it your API keys. Two evenings and it is running.
+            Code. Give it your API keys. A few hours and it is running.
           </p>
 
           <div className="cs-prompt-wrap">
@@ -261,6 +262,19 @@ export default function BlumePage() {
 
           <div className="cs-honest-cols">
             <div>
+              <span className="cs-honest-col-h strength">
+                what I bring on day one
+              </span>
+              <ul className="cs-list">
+                {STRENGTHS.map((s) => (
+                  <li key={s.title}>
+                    <h4 className="cs-list-h">{s.title}</h4>
+                    <p className="cs-list-b">{s.body}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
               <span className="cs-honest-col-h">what I do not know yet</span>
               <ul className="cs-list">
                 {GAPS.map((g) => (
@@ -270,19 +284,6 @@ export default function BlumePage() {
                       {g.title}
                     </h4>
                     <p className="cs-list-b">{g.body}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <span className="cs-honest-col-h strength">
-                what I bring on day one
-              </span>
-              <ul className="cs-list">
-                {STRENGTHS.map((s) => (
-                  <li key={s.title}>
-                    <h4 className="cs-list-h">{s.title}</h4>
-                    <p className="cs-list-b">{s.body}</p>
                   </li>
                 ))}
               </ul>
@@ -356,14 +357,14 @@ export default function BlumePage() {
           <div className="cs-cta-row">
             <a
               className="cs-cta-button"
-              href={`mailto:${CONTACT.email}?subject=Blume%20Growth%20%E2%80%94%20coffee%3F`}
+              href={`mailto:${CONTACT.email}?subject=Blume%20Growth%20Investments%2C%20coffee%3F`}
             >
               📧 email me →
             </a>
           </div>
 
           <span className="cs-section-aside">
-            (Either is a yes from me.)
+            (Any of the three is a yes from me.)
           </span>
 
           <div className="cs-lurk">
@@ -418,15 +419,15 @@ export default function BlumePage() {
 
       <footer className="cs-foot">
         <p>
-          Rishabh Balabomma · Mumbai · exec MBA at IIM Kozhikode (2025–27) ·
-          written in{" "}
+          Rishabh Balabomma · this page was built in{" "}
           <a
             href="https://claude.com/code"
             target="_blank"
             rel="noopener noreferrer"
           >
             Claude Code
-          </a>
+          </a>{" "}
+          in an afternoon · which is sort of the point
         </p>
       </footer>
     </main>

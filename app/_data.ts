@@ -65,33 +65,33 @@ export const JOURNEY: Stop[] = [
 export const SHIPPED: Ship[] = [
   {
     big: "10M+",
-    label: "unified identities",
+    label: "people, one profile each",
     context:
-      "Built the customer data platform 0-to-1 at Motilal. Five group entities through a chinese wall. Equities, mutual funds, commodities, insurance, lending, on one identity graph. +18% engagement, +12% conversion.",
+      "I built Motilal's customer data platform from nothing. Five group entities, one identity graph, through a strict chinese wall. Equities, mutual funds, commodities, insurance, lending. +18% engagement, +12% conversion.",
   },
   {
     big: "~40%",
     label: "of firm revenue",
     context:
-      "Architected and own the enterprise platform for franchise and advisor channel at Motilal. Dashboards, ops console, execution platform. Revamped and stabilised the modules that drive the number.",
+      "I built and own the platform the franchise and advisor channel runs on. Dashboards, ops console, execution. I rebuilt the modules that move the number, and they have held since.",
   },
   {
     big: "-40%",
     label: "advisor prep time",
     context:
-      "AI portfolio recommendation engine for the advisor and franchise channel. Owned model output design, data pipelines, evaluation, advisor UX. +15% attach rates.",
-  },
-  {
-    big: "8+",
-    label: "functions in the room",
-    context:
-      "Every product I have shipped needed business, sales, tech, marketing, customer success, legal, compliance, finance, and risk to row in one direction. Mostly into uncharted territory.",
+      "An AI engine that builds portfolio recommendations for advisors. I designed the model output, the data pipelines, the evaluation, the screens advisors actually use. +15% attach rates.",
   },
   {
     big: "3 → 12",
-    label: "experiments / quarter",
+    label: "experiments a quarter",
     context:
-      "Pioneered LLM-powered PM workflows across the firm. Trained the team on Claude Code, prompt engineering, agentic workflows, AI-native product design.",
+      "I brought LLM-powered workflows into the firm and quadrupled how fast the team ships. Trained them on Claude Code, prompt engineering, agentic workflows, AI-native product design.",
+  },
+  {
+    big: "0 → 1",
+    label: "built alone, on weekends",
+    context:
+      "boredfolio.com is an AI-native personal finance app on India's account aggregator rails. No team, no budget, no brief. Just me and Claude Code. The page you are reading runs on the same stack.",
   },
 ];
 
@@ -99,7 +99,7 @@ export const FLAGS: Flag[] = [
   {
     year: "2018",
     place: "RedSeer · Bangalore",
-    body: "Boss handed me a case study on day one. I said yes on the spot. Then walked to my senior and asked how case studies were actually made. Shipped. The senior is still a friend.",
+    body: "Boss handed me 10 case studies on day one, not one. I said yes on the spot. Then walked to my senior and asked how case studies were actually made. Shipped in a day, with all their help. The senior is still a friend.",
   },
   {
     year: "2019",
@@ -137,9 +137,9 @@ export const SELF_EVAL = [
 ];
 
 export const WHY_PARAS = [
-  "I have always worked best across many rooms, not deep inside one. Fintech to consumer to deep-tech, founder to LP, pre-IPO to listed. Generalists are punished in big firms and quietly rewarded in growth funds. The seat is built for the way I work.",
-  "I want to work with people sharper than me. A growth-fund partnership in Mumbai has more of those per square metre than most rooms I have access to today.",
-  "I want to spend my time on the thinking, not on the gathering. AI is finally good enough at the rest. The seat is structured for exactly that split, and the five-to-ten-year arc is the time horizon I have been waiting for.",
+  "I build things nobody asked for. boredfolio.com is the latest one. An AI-native personal finance app, built on weekends, because the work week has never had quite enough building in it. That is the honest reason I am writing to you. Not a career plan. An itch.",
+  "Here is what makes this seat possible now. A year ago it needed an analyst, an associate, and a stack of decks. Today it needs one operator who is not scared of Claude Code, because the analyst work is mostly a good prompt. I have been that operator at Motilal for three years. I would rather be it for fifteen companies than one.",
+  "And I do not want to specialise. I still like walking into a domain I know nothing about and shipping in it anyway. Insurance. US stocks. Customer data. I knew none of them on day one. A growth seat is a dozen new domains a year. That reads less like a job and more like the good part of one.",
 ];
 
 export const USE_CASES: UseCase[] = [
@@ -253,7 +253,7 @@ ACCESS YOU WILL NEED:
 - X API v2 bearer token (Basic tier, ~$100/mo, optional)
 - The portfolio company list
 
-Total build time: ~2 evenings end-to-end.
+Total build time: a few hours end-to-end.
 Total running cost: ~₹3,000 a month including API usage.
 
 Begin by asking the human for the inputs above. Then output a
@@ -261,70 +261,60 @@ step-by-step plan. Pause whenever a step needs manual setup and
 instruct the human clearly. Show your working.`;
 
 export const HONEST_OPENING =
-  "Most of what I do not know yet can be bridged with a ₹10k Claude subscription and a couple of months. The honest list anyway.";
+  "Here is the honest version. Four things I am good at on day one, and three I am not yet. I would rather you know both now than find the second list yourself in month two.";
+
+export const STRENGTHS = [
+  {
+    title: "I ship fast",
+    body: "US stocks, zero to live in two months. Account aggregator consent journeys, four days down to same-day. I do not wait for the perfect plan. I ship a rough one and fix it in the open.",
+  },
+  {
+    title: "AI-native, not AI-curious",
+    body: "Claude Code is my primary tool, not a thing I tried once. I built boredfolio.com with it, alone. I trained the Motilal team on it. This page is built with it. The Sunday brief above is a couple of hours of work.",
+  },
+  {
+    title: "I learn a domain in weeks",
+    body: "I knew nothing about insurance, US broker-dealer rules, or customer data platforms before each was handed to me. I shipped all three anyway. A growth portfolio is just more of that, at higher speed.",
+  },
+  {
+    title: "I build teams people stay on",
+    body: "I lead five PMs at Motilal. I built the squad that rebuilt the platform behind ~40% of firm revenue. Most of them are still there. Most of them are friends.",
+  },
+];
 
 export const GAPS = [
   {
     n: "01",
     title: "Three-statement models from scratch",
-    body: "The sit-down-with-Excel kind, in IB house style. Couple of months. Damodaran's course, five live models on listed peers, four notes reviewed by a senior.",
+    body: "The sit-down-with-Excel kind, in banker house style. I can read them well. I have not built many. Two months closes it: Damodaran's course and five live models on listed peers.",
   },
   {
     n: "02",
-    title: "Cap-table mechanics under term-sheet pressure",
-    body: "I have read enough to understand the moves. Have not been on the negotiating side of one yet. Learnable in the seat over one or two deal cycles.",
+    title: "Cap tables under term-sheet pressure",
+    body: "I understand the moves on paper. I have not sat on the negotiating side of a live term sheet. That one only comes with deal reps, and the reps come fast.",
   },
   {
     n: "03",
-    title: "Board observer reps",
-    body: "Only learnable in the seat. Six to nine months. You would know by Q3 whether I show up well in those rooms.",
-  },
-  {
-    n: "04",
-    title: "Sector depth outside BFSI",
-    body: "Tech and AI I enjoy and pick up quickly. Deep-tech, climate, and frontier consumer I will pick up the way I always do, by being the person who asks the boring questions first in every founder meeting.",
-  },
-  {
-    n: "05",
-    title: "LP letter writing at fund cadence",
-    body: "I write internal memos that get forwarded to the CEO. Different audience, different bar. Six months to calibrate.",
-  },
-];
-
-export const STRENGTHS = [
-  {
-    title: "Building and running teams",
-    body: "Lead a team of five PMs at Motilal. Stood up cross-functional squads of product, marketing, ops, tech, and QA for the enterprise platform revamp. Most of those people are still on the team. Most of them are friends.",
-  },
-  {
-    title: "Stakeholder management at the exec layer",
-    body: "Daily interface with the CEO, CTO, head of compliance, head of sales, head of risk. The spec lands faster when the CTO and the chief compliance officer both nod in the same meeting. That coordination is most of the job.",
-  },
-  {
-    title: "Vendor and contract negotiation",
-    body: "Owned procurement of Mixpanel, CleverTap, Amplitude, Tableau, and three more SaaS tools at Motilal. Negotiated the deals, wrote the SOWs, compressed cycles. Comfortable on both sides of a price conversation.",
-  },
-  {
-    title: "AI, automation, platform-engineering muscle",
-    body: "Three experiments a quarter became twelve. Claude Code, agentic workflows, prompt engineering, AI-native product design. Trained the team. The toolchain that built this page is the same one.",
+    title: "Reading a boardroom",
+    body: "How you actually show up in a board meeting is learned in board meetings. Six to nine months. You would know by the second quarter whether I am good in that chair.",
   },
 ];
 
 export const COFFEE_OPTIONS = [
   {
     n: "01",
-    title: "Coffee in Bandra",
-    body: "Thirty minutes. I will show up with three questions I want to ask you. You bring whatever was on your desk this week. Zoom works if you are out of town.",
+    title: "The actual coffee",
+    body: "Thirty minutes. Blue Tokai in Bandra, or a Zoom if you are travelling. No deck, no laptop. I bring three questions about Blume I could not answer from the outside. You tell me which ones are naive.",
   },
   {
     n: "02",
     title: "The 200-word test",
-    body: "Pick any name in your book. Slice, Turtlemint, Purplle, Spinny, Battery Smart. I send back a 200-word read on operating leverage with public sources cited. Sunday before midnight. If the read lands, we keep talking.",
+    body: "Pick any company in the Blume portfolio. The one you are tired of explaining. I send back a 200-word read on how it actually makes money, public sources only, by Sunday midnight. If it is sharp, we keep talking.",
   },
   {
     n: "03",
     title: "The new-hire brief",
-    body: "Hand me the brief you would give a new hire in their first week. I do it. We compare answers. If mine looks like yours, we have something. If not, you saved a hire.",
+    body: "Hand me the brief you would give a growth-team hire in their first week. I do it for real. We compare notes. If mine looks like yours, we have something. If not, I just saved you a hire.",
   },
 ];
 
@@ -333,6 +323,8 @@ export const BRIEF_PREVIEW = [
   "Turtlemint · filed to IPO, mostly existing investors selling",
   "Purplle · results out Thursday, watch Nykaa report first",
   "Spinny · raised fresh debt, worth a call on cash flow",
+  "Battery Smart · board meeting Tuesday, six numbers to pre-read",
+  "RBI · new digital-lending rule, lands on two of your companies",
 ];
 
 export const CONTACT = {
