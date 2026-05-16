@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title:
     "Hi Vikram. I want the operator seat after the cheque clears. By Rishabh Balabomma.",
   description:
-    "A working note for Vikram Gawande on the Blume Growth Investments seat. The journey, what shipped, why, what I'd build first, the honest read, coffee, and the flags.",
+    "A working note for Vikram Gawande on the Blume Growth Investments seat. The journey, what shipped, why, what I'd build first, the honest read, the flags, and coffee.",
 };
 
 function LinkedInSVG() {
@@ -108,7 +108,7 @@ export default function BlumePage() {
         </div>
       </section>
 
-      {/* 01 — JOURNEY */}
+      {/* 01 - JOURNEY */}
       <section id="journey" className="cs-section cs-section--butter">
         <div className="cs-section-inner">
           <h2 className="cs-section-h">
@@ -145,7 +145,7 @@ export default function BlumePage() {
         </div>
       </section>
 
-      {/* 02 — SHIPPED */}
+      {/* 02 - SHIPPED */}
       <section id="shipped" className="cs-section cs-section--mauve">
         <div className="cs-section-inner">
           <h2 className="cs-section-h">
@@ -168,7 +168,7 @@ export default function BlumePage() {
         </div>
       </section>
 
-      {/* 03 — WHY */}
+      {/* 03 - WHY */}
       <section id="why" className="cs-section cs-section--mint">
         <div className="cs-section-inner">
           <h2 className="cs-section-h">
@@ -183,7 +183,7 @@ export default function BlumePage() {
         </div>
       </section>
 
-      {/* 04 — BUILD FIRST */}
+      {/* 04 - BUILD FIRST */}
       <section id="build" className="cs-section cs-section--cream">
         <div className="cs-section-inner">
           <h2 className="cs-section-h">
@@ -251,7 +251,7 @@ export default function BlumePage() {
         </div>
       </section>
 
-      {/* 05 — HONEST READ */}
+      {/* 05 - HONEST READ */}
       <section id="honest" className="cs-section cs-section--butter">
         <div className="cs-section-inner">
           <h2 className="cs-section-h">
@@ -297,7 +297,7 @@ export default function BlumePage() {
         </div>
       </section>
 
-      {/* 06 — RED / GREEN / BEIGE FLAGS */}
+      {/* 06 - RED / GREEN / BEIGE FLAGS */}
       <section id="flags" className="cs-section cs-section--rose">
         <div className="cs-section-inner">
           <h2 className="cs-section-h">
@@ -334,7 +334,7 @@ export default function BlumePage() {
         </div>
       </section>
 
-      {/* 07 — COFFEE */}
+      {/* 07 - COFFEE */}
       <section id="coffee" className="cs-section cs-section--sage">
         <div className="cs-section-inner">
           <h2 className="cs-section-h">

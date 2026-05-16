@@ -578,12 +578,15 @@ button { font-family: inherit; }
 /* ─── Shipped number cards (5 colored, tilted) ───────────────────────── */
 .cs-shipped {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1.4rem;
   margin: 2.8rem 0 0;
 }
-@media (min-width: 900px) {
-  .cs-shipped { grid-template-columns: repeat(5, 1fr); gap: 1.4rem; }
+@media (min-width: 600px) {
+  .cs-shipped { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1024px) {
+  .cs-shipped { grid-template-columns: repeat(5, 1fr); }
 }
 .cs-num-card {
   background: white;
@@ -788,7 +791,7 @@ button { font-family: inherit; }
   background: var(--cs-butter);
   color: var(--cs-ink);
   border: 2px solid var(--cs-cream);
-  padding: 0.32rem 0.75rem;
+  padding: 0.5rem 0.85rem;
   border-radius: 5px;
   cursor: pointer;
   transition: transform 0.15s ease;

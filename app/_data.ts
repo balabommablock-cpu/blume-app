@@ -67,7 +67,7 @@ export const SHIPPED: Ship[] = [
     big: "10M+",
     label: "people, one profile each",
     context:
-      "I built Motilal's customer data platform from nothing. Five group entities, one identity graph, through a strict chinese wall. Equities, mutual funds, commodities, insurance, lending. +18% engagement, +12% conversion.",
+      "I built Motilal's customer data platform from nothing. Five group entities, one identity graph, through a strict Chinese wall. Equities, mutual funds, commodities, insurance, lending. +18% engagement, +12% conversion.",
   },
   {
     big: "~40%",
@@ -194,7 +194,7 @@ Step 1. A Python service, cron'd every 6 hours:
 
 Step 2. Sunday 18:00 IST cron:
   - Reads the past 7 days of items per company
-  - Calls the Anthropic API (sonnet-4-7 or opus-4-7) with the prompt template
+  - Calls the Anthropic API (a current Claude model, Opus or Sonnet) with the prompt template
   - Writes the output to a 'briefs' table
 
 Step 3. Gmail SMTP, Sunday 20:00 IST:
@@ -245,7 +245,7 @@ data. Better to under-report than over-report.
 """
 
 ACCESS YOU WILL NEED:
-- Anthropic API key (sonnet-4-7 or opus-4-7 access)
+- Anthropic API key with access to a current Claude model (Opus or Sonnet)
 - Gmail app password for SMTP
 - A Mac mini, VPS, or cloud function for the cron
 - X API v2 bearer token (Basic tier, ~$100/mo, optional)
