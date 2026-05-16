@@ -329,10 +329,10 @@ export const COFFEE_OPTIONS = [
 ];
 
 export const BRIEF_PREVIEW = [
-  "Slice · CIR at 83.4%, peers at 60–65%",
-  "Turtlemint · UDRHP filed Jan 28. OFS 67 / fresh 33",
-  "Purplle · Q3 print Thursday. Nykaa moves first",
-  "Spinny · new senior debt facility. WC worth a call",
+  "Slice · costs run 83% of income, peers sit at 60-65%",
+  "Turtlemint · filed to IPO, mostly existing investors selling",
+  "Purplle · results out Thursday, watch Nykaa report first",
+  "Spinny · raised fresh debt, worth a call on cash flow",
 ];
 
 export const CONTACT = {
