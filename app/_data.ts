@@ -135,8 +135,8 @@ export const SELF_EVAL = [
 ];
 
 export const WHY_PARAS = [
-  "I have a small problem. I build things nobody asked for. Most of my weekends produce something half-finished that has no business existing.",
-  "A growth seat is the first job I have found that wants that as the main qualification instead of the personality flaw. Fifteen companies, every one mid-build and stuck on something specific. Go in. Be useful. Leave. Repeat.",
+  "I build things. Constantly, and mostly before anyone asks me to. It is the strongest instinct I have, and it does not switch off on weekends. That is not a quirk to be managed. It is the engine everything else runs on.",
+  "It is an interesting operating job that happens to come with a chequebook. Whoever you hire will spend far more hours building companies with founders than picking the next bet. Most applicants are studying for the picking. I have spent seven years doing the building.",
   "I am not in this for the title. Those have never moved me. I want the long version: years of hard problems, rooms worth being the least experienced person in, and an org chart thin enough that nobody gets to tell me which lane is mine.",
 ];
 
