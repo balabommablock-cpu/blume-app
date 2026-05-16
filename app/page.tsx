@@ -101,10 +101,9 @@ export default function BlumePage() {
             <span className="cursive">the cheque clears.</span>
           </h1>
           <p className="cs-hero-sub">
-            I&apos;m Rishabh. A product guy. I build fintech things at
-            Motilal Oswal, and more of them on weekends than is strictly
-            healthy. This is my pitch for the Blume Growth Investments
-            seat. A note, not a CV. Four minutes.
+            I&apos;m Rishabh, a product guy at Motilal Oswal. This is my
+            pitch for the Blume Growth Investments seat. A note, not a CV.
+            Four minutes.
           </p>
         </div>
       </section>
@@ -153,8 +152,8 @@ export default function BlumePage() {
             <span className="cursive">shipped.</span>
           </h2>
           <p className="cs-section-body">
-            Five things I built and shipped. Four at Motilal, one on my
-            own time. Live products, real numbers, not a slide in sight.
+            Five things I built and shipped at Motilal. Live products,
+            real numbers, not a slide in sight.
           </p>
 
           <div className="cs-shipped">
@@ -306,9 +305,10 @@ export default function BlumePage() {
             <span className="cursive">beige flag.</span>
           </h2>
           <p className="cs-section-body">
-            Before the ask. I have mostly been a generalist. I say yes first
-            and build the plane on the way down. Receipts below. Read them as
-            red, green, or beige. (Beige if you cannot decide.)
+            Before the ask, the receipts. I have mostly been a generalist,
+            the kind who says yes first and works it out after. Read each
+            one as a red flag, a green flag, or a beige flag. Beige if you
+            cannot decide.
           </p>
 
           <div className="cs-flags">
@@ -418,16 +418,10 @@ export default function BlumePage() {
       </section>
 
       <footer className="cs-foot">
+        <p className="cs-foot-name">Rishabh Balabomma</p>
         <p>
-          Rishabh Balabomma · this page was built in{" "}
-          <a
-            href="https://claude.com/code"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Claude Code
-          </a>{" "}
-          in an afternoon · which is sort of the point
+          Takes toys seriously. Treats seriousness like a toy. Building AI
+          products.
         </p>
       </footer>
     </main>

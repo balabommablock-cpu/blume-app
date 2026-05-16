@@ -58,7 +58,7 @@ export const JOURNEY: Stop[] = [
     company: "Motilal Oswal Financial Services",
     role: "Vice President, Products",
     tag: "ai-native product",
-    body: "US stocks 0-to-1 in two months. Customer Data Platform 0-to-1 across five group entities through a chinese wall. Enterprise platform for franchise and advisor channel (~40% of firm revenue). AI portfolio recommendation engine. LLM-powered PM workflows on Claude Code.",
+    body: "Hired for one product, then handed every hard zero-to-one the firm had after that. Now I run product for its AI and platform bets.",
   },
 ];
 
@@ -85,13 +85,13 @@ export const SHIPPED: Ship[] = [
     big: "3 → 12",
     label: "experiments a quarter",
     context:
-      "I brought LLM-powered workflows into the firm and quadrupled how fast the team ships. Trained them on Claude Code, prompt engineering, agentic workflows, AI-native product design.",
+      "I brought LLM-powered workflows into the firm. The team now runs four times the experiments it used to, on the same headcount.",
   },
   {
-    big: "0 → 1",
-    label: "built alone, on weekends",
+    big: "same day",
+    label: "consent, was 4 days",
     context:
-      "boredfolio.com is an AI-native personal finance app on India's account aggregator rails. No team, no budget, no brief. Just me and Claude Code. The page you are reading runs on the same stack.",
+      "I rebuilt Motilal's account aggregator onboarding to RBI spec. A consent journey that took four days now finishes same-day. Regulated fintech, shipped without drama.",
   },
 ];
 
@@ -109,7 +109,7 @@ export const FLAGS: Flag[] = [
   {
     year: "2021",
     place: "Riskcovry · Mumbai",
-    body: "Joined as solo PM. Knew almost nothing about insurance ops. Learnt the integrations while shipping them with Ola and IndusInd. The playbook is still in use.",
+    body: "Joined as the solo PM. Knew almost nothing about insurance. Learnt it while shipping it. The playbook I wrote that quarter is still in use.",
   },
   {
     year: "2022",
@@ -119,12 +119,12 @@ export const FLAGS: Flag[] = [
   {
     year: "2023",
     place: "Motilal · CDP",
-    body: "Got assigned the customer data platform. First question to the architect was, in earnest, what is a CDP and don't we already have a decent one. Built the data layer 0-to-1 across five group entities through a strict chinese wall.",
+    body: "Got handed the customer data platform. My first question to the architect, in earnest: what is a CDP, and do we not already have one? Then I went and built it.",
   },
   {
     year: "2024",
     place: "Motilal · Enterprise platform",
-    body: "Boss texted me on a Friday: \"aag lag gayi hai bhai, dekh le.\" Stood up a team across product, marketing, ops, tech, QA. Revamped the platform. Stabilised the modules driving ~40% of firm revenue.",
+    body: "Boss texted me on a Friday: \"aag lag gayi hai bhai, dekh le.\" I pulled together a team across product, marketing, ops, tech and QA, and we rebuilt the platform under fire.",
   },
 ];
 
@@ -137,9 +137,9 @@ export const SELF_EVAL = [
 ];
 
 export const WHY_PARAS = [
-  "I build things nobody asked for. boredfolio.com is the latest one. An AI-native personal finance app, built on weekends, because the work week has never had quite enough building in it. That is the honest reason I am writing to you. Not a career plan. An itch.",
-  "Here is what makes this seat possible now. A year ago it needed an analyst, an associate, and a stack of decks. Today it needs one operator who is not scared of Claude Code, because the analyst work is mostly a good prompt. I have been that operator at Motilal for three years. I would rather be it for fifteen companies than one.",
-  "And I do not want to specialise. I still like walking into a domain I know nothing about and shipping in it anyway. Insurance. US stocks. Customer data. I knew none of them on day one. A growth seat is a dozen new domains a year. That reads less like a job and more like the good part of one.",
+  "I have a small problem. I build things nobody asked for. Most of my weekends produce something half-finished that has no business existing.",
+  "A growth seat is the first job I have found that wants that as the main qualification instead of the personality flaw. Fifteen companies, every one mid-build and stuck on something specific. Go in. Be useful. Leave. Repeat.",
+  "I am not in this for the title. Those have never moved me. I want the long version: years of hard problems, rooms worth being the least experienced person in, and an org chart thin enough that nobody gets to tell me which lane is mine.",
 ];
 
 export const USE_CASES: UseCase[] = [
@@ -261,42 +261,66 @@ step-by-step plan. Pause whenever a step needs manual setup and
 instruct the human clearly. Show your working.`;
 
 export const HONEST_OPENING =
-  "Here is the honest version. Four things I am good at on day one, and three I am not yet. I would rather you know both now than find the second list yourself in month two.";
+  "Here is the honest version. What I am good at, and what I am still not. I would rather you know both before the coffee than after the offer.";
 
 export const STRENGTHS = [
   {
     title: "I ship fast",
-    body: "US stocks, zero to live in two months. Account aggregator consent journeys, four days down to same-day. I do not wait for the perfect plan. I ship a rough one and fix it in the open.",
+    body: "Everything in the section above went from nothing to live in months, not years. I do not wait for a perfect plan. I ship the rough version, put it in front of real users, and fix it from there.",
   },
   {
     title: "AI-native, not AI-curious",
-    body: "Claude Code is my primary tool, not a thing I tried once. I built boredfolio.com with it, alone. I trained the Motilal team on it. This page is built with it. The Sunday brief above is a couple of hours of work.",
+    body: "Claude Code is my primary tool, not something I tried once. I have built a small trading platform for the firm and a pile of side quests for myself with it, alone. I trained the Motilal team to work the same way. This page is built with it.",
   },
   {
     title: "I learn a domain in weeks",
-    body: "I knew nothing about insurance, US broker-dealer rules, or customer data platforms before each was handed to me. I shipped all three anyway. A growth portfolio is just more of that, at higher speed.",
+    body: "Look at the timeline. Every job on it began with me knowing close to nothing about the domain. I shipped in each one anyway. A growth portfolio is a dozen new domains a year, and I am unusually comfortable with that.",
+  },
+  {
+    title: "I would do the AI part for free",
+    body: "I read about this stuff constantly and I will talk about it until you change the subject. Not the hype, the real thing: what shifted this month, what it breaks, what it quietly makes buildable. For a growth fund in 2026, that is not a side interest. It is most of the job.",
   },
   {
     title: "I build teams people stay on",
-    body: "I lead five PMs at Motilal. I built the squad that rebuilt the platform behind ~40% of firm revenue. Most of them are still there. Most of them are friends.",
+    body: "I built the squad that rebuilt our biggest platform. Five PMs, three product marketers, about thirty engineers, designers and QA. I could give you retention stats on them. The number I actually keep is friends: more than seventy, at this one company, across every level of it. Yes, I counted.",
   },
 ];
 
 export const GAPS = [
   {
     n: "01",
-    title: "Three-statement models from scratch",
-    body: "The sit-down-with-Excel kind, in banker house style. I can read them well. I have not built many. Two months closes it: Damodaran's course and five live models on listed peers.",
+    title: "Building models from scratch",
+    body: "Three-statement and valuation models, the sit-down-with-Excel kind, in banker house style. I read them well. I have not built many. Two months closes it: Damodaran's course and five live models on listed peers.",
   },
   {
     n: "02",
-    title: "Cap tables under term-sheet pressure",
-    body: "I understand the moves on paper. I have not sat on the negotiating side of a live term sheet. That one only comes with deal reps, and the reps come fast.",
+    title: "Cap tables and term sheets",
+    body: "I understand the mechanics on paper. Liquidation preferences, pro-rata, the rest. I have not negotiated a live one. That comes only with deal reps, and the reps come fast.",
   },
   {
     n: "03",
-    title: "Reading a boardroom",
-    body: "How you actually show up in a board meeting is learned in board meetings. Six to nine months. You would know by the second quarter whether I am good in that chair.",
+    title: "The investor side of a boardroom",
+    body: "I have built products for boards to review. I have not sat as the investor in the room. How you are useful in that chair is learned in that chair. Six to nine months.",
+  },
+  {
+    n: "04",
+    title: "Sourcing",
+    body: "My career has been about helping companies that already exist, not finding them first. Originating deals is a muscle I have not built. Early on I would lean on the partners here, and on being genuinely useful in public.",
+  },
+  {
+    n: "05",
+    title: "Sector depth, finance included",
+    body: "Three years inside a financial services firm taught me how BFSI products and regulation actually behave. It did not make me a finance scholar, and I would rather not pretend. Outside BFSI I am starting fresh. Deep sector instinct is a slow build for me, one founder conversation at a time.",
+  },
+  {
+    n: "06",
+    title: "The fund and LP side",
+    body: "Fund economics, reserves, ownership math, LP letters. I have read about it. I have run none of it. This one is an honest multi-year build, and I would rather say so now than discover it with you later.",
+  },
+  {
+    n: "07",
+    title: "Being the quick one in the room",
+    body: "I am not, and I have stopped auditioning for it. I think slowly, take an absurd number of notes, and reach conclusions at roughly the pace of a court case. For years that was a quiet tax in fast rooms. Then I started running my first-draft thinking through Claude, and slow stopped being expensive. I am not smarter than I was. I am just no longer bottlenecked by the parts of my head that were never much good.",
   },
 ];
 
