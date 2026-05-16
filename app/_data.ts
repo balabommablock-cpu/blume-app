@@ -88,10 +88,10 @@ export const SHIPPED: Ship[] = [
       "I brought LLM-powered workflows into the firm. The team now runs four times the experiments it used to, on the same headcount.",
   },
   {
-    big: "same day",
-    label: "consent, was 4 days",
+    big: "2 months",
+    label: "US stocks, zero to live",
     context:
-      "I rebuilt Motilal's account aggregator onboarding to RBI spec. A consent journey that took four days now finishes same-day. Regulated fintech, shipped without drama.",
+      "I built Motilal's US equities product from nothing in two months. SEBI, FEMA, a US broker-dealer and our own stack, all aligned at once. It let our users buy Apple and Nvidia from inside the app.",
   },
 ];
 
@@ -114,7 +114,7 @@ export const FLAGS: Flag[] = [
   {
     year: "2022",
     place: "Motilal · US stocks",
-    body: "Brought in to lead insurance products. Got handed US stocks from scratch on day three. Shipped 0-to-1 in two months. SEBI, FEMA, US broker-dealer, all in one alignment.",
+    body: "Brought in to lead insurance products. On day three someone handed me US stocks instead, from scratch, and walked off. I said yes before I had finished hearing the sentence.",
   },
   {
     year: "2023",
@@ -131,8 +131,6 @@ export const FLAGS: Flag[] = [
 export const SELF_EVAL = [
   "Strong action bias. I tend to jump and build the plane on the way down.",
   "Creative under pressure. Less so when there is time.",
-  "Not the smartest person in any room I have walked into.",
-  "Take a lot of notes. Process slowly. Build opinions slowly, but build them.",
   "Allergic to hierarchy. Have skipped four reporting lines along the way without being fired.",
 ];
 
